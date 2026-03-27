@@ -11,4 +11,4 @@ const char *tokenScope = "https://graph.microsoft.com/.default";
 const char *presenceUserId = "user@contoso.com";
 
 // AI Thinker ESP32-CAM flash LED is commonly on GPIO 4. Adjust if your board differs.
-constexpr uint8_t presenceLedPin = 4;
+const uint8_t presenceLedPin = 4;
