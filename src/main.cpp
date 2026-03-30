@@ -35,7 +35,8 @@ bool isUserInCall(const char *activity)
 
   return strcmp(activity, "InACall") == 0 ||
          strcmp(activity, "InAConferenceCall") == 0 ||
-         strcmp(activity, "DoNotDisturb") == 0;
+         strcmp(activity, "DoNotDisturb") == 0 ||
+         strcmp(activity, "Presenting") == 0;
 }
 
 void dumpJson(const char *label, const String &json)
